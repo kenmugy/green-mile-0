@@ -2,6 +2,7 @@ export const HOME = '/home';
 export const ADMIN = '/admin';
 export const LOADER = '/loader';
 export const SIGNIN = '/signin';
+export const ACCOUNT = '/account';
 export const LANDING = '/';
 export const PASSWORD_FORGET = '/pw-forget';
 export const RECIPIENT = '/recipient';
