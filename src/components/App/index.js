@@ -9,6 +9,7 @@ import SignIn from '../SignIn';
 import Recipient from '../Recipient';
 import Supplier from '../Supplier';
 import SignUp from '../SignUp';
+import Loader from '../Loader';
 
 import * as ROUTES from '../../constants/routes';
 
@@ -25,6 +26,7 @@ function App() {
           <Route path={ROUTES.SIGN_UP} component={SignUp} />
           <Route path={ROUTES.RECIPIENT} component={Recipient} />
           <Route path={ROUTES.SUPPLIER} component={Supplier} />
+          <Route path={ROUTES.LOADER} component={Loader} />
         </Switch>
       </div>
     </Router>
