@@ -1,0 +1,10 @@
+export const HOME = '/home';
+export const ADMIN = '/admin';
+export const LOADER = '/loader';
+export const SIGNIN = '/signin';
+export const LANDING = '/';
+export const PASSWORD_FORGET = '/pw-forget';
+export const RECIPIENT = '/recipient';
+export const SUPPLIER = '/supplier';
+export const SIGN_UP = '/sign-up';
+export const LOGOUT = '/logout';
