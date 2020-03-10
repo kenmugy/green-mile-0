@@ -26,9 +26,6 @@ const Navigation = () => {
             <Link to={ROUTES.SIGNIN}>Signin</Link>
           </li>
           <li>
-            <Link to={ROUTES.LOGOUT}>Logout</Link>
-          </li>
-          <li>
             <Link to={ROUTES.SUPPLIER}>Supplier</Link>
           </li>
           <li>
@@ -38,7 +35,7 @@ const Navigation = () => {
             <Link to={ROUTES.RECIPIENT}>Recipient</Link>
           </li>
           <li>
-            <Link to={ROUTES.PASSWORD_FORGET}>Forgot Password</Link>
+            <Link to={ROUTES.ACCOUNT}>Account</Link>
           </li>
         </ul>
         {/* <ul className='sidenav' id='mobile-demo'>
