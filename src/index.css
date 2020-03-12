@@ -13,9 +13,13 @@ code {
 }
 
 #logo {
-  border: 5px solid ;
+  border: 5px solid;
   border-bottom: none;
-  padding:0 8px;
+  padding: 0 8px;
   box-sizing: border-box;
   margin-bottom: 10px;
+}
+
+select {
+  display: inline-block;
 }

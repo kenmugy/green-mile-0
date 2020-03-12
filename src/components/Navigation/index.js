@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 
 const Navigation = () => {
   return (
-    <nav className=" light-green darken-3 z-depth-0">
+    <nav className=' light-green darken-3 z-depth-0'>
       <div className='container nav-wrapper'>
         {/*  eslint-disable-next-line */}
-        <a href='#' id="logo" className='brand-logo left'>
+        <a href='#' id='logo' className='brand-logo left'>
           The G M
         </a>
         {/*  eslint-disable-next-line */}
@@ -30,6 +30,9 @@ const Navigation = () => {
           </li>
           <li>
             <Link to={ROUTES.LOADER}>Loader</Link>
+          </li>
+          <li>
+            <Link to={ROUTES.ADMIN}>Admin</Link>
           </li>
           <li>
             <Link to={ROUTES.RECIPIENT}>Recipient</Link>

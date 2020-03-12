@@ -1,0 +1,10 @@
+#app {
+  display: flex;
+  border: 1px solid;
+  justify-content: space-between;
+}
+
+.sidebar {
+  border: 1px solid;
+  margin-left: 10px;
+}
